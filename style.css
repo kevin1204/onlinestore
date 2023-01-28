@@ -1,0 +1,51 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  table {
+    margin: 2em;
+  }
+
+
+  #cart_content, #review_content {
+    margin: 3em;
+  }
+
+  .top_wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+  }
+
+  #add_to_cart {
+    display: flex;
+  }
+
+  #add_to_cart input{
+    margin: 0.5em;
+  }
+
+  .items_cart_counter {
+    width: 40px;
+  }
+
+  field.text {
+    display: grid;
+    gap: 4px;
+}
+
+field.text label {
+    font-size: 16px;
+}
+
+field.text input {
+    font: inherit;
+    padding: 5px 10px;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+    max-width: 300px;
+}
